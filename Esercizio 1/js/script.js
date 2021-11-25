@@ -3,6 +3,8 @@
 
 
  let userNum = parseInt( prompt('Inserisci un numero: ') );
+ 
+ 
  if(userNum % 2 === 0) {
      alert('Il numero è pari: ' + userNum);
  }else{
